@@ -11,7 +11,10 @@ public class PatternsPractise {
         first.pattern4();
         first.pattern5();
         first.pattern6();
+        first.pattern7();
     }
+
+
     public void pattern1() {
 
       /*  ****
@@ -152,6 +155,26 @@ public class PatternsPractise {
                 c++;
             }
             System.out.println("\n");
+        }
+
+    }
+    private void pattern7() {
+        System.out.println("Seventh Basic Pattern ");
+
+       /*
+        3
+        6 9
+        12 15 18     */
+
+        int a =3;
+        for(int i=0;i<3;i++)
+        {
+            for(int j=0;j<=i;j++)
+            {
+                System.out.print(a+"\t");
+                a=a+3;
+            }
+            System.out.print("\n");
         }
 
     }
