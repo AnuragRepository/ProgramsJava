@@ -1,13 +1,14 @@
 package Revision.Patterns;
 
-public class First {
+public class PatternsPractise {
 
     public static void main(String[] args)
     {
-        First first = new First();
+        PatternsPractise first = new PatternsPractise();
         first.pattern1();
         first.pattern2();
         first.pattern3();
+        first.pattern4();
     }
     public void pattern1() {
 
@@ -82,12 +83,35 @@ public class First {
                 System.out.print(a+"\t");
                 a++;
             }
-            col--;
             System.out.println("\n");
         }
 
 
     }
+    public void pattern4()
+    {
+        System.out.println("Forth Pattern ");
+        //Approach = column elements num equal to row number
+     /* 1
+        2 3
+        4 5 6
+        7 8 9 10
+        */
+        int c =1;
+        for(int i =0; i<4 ; i++)
+        {
+            for(int j=0; j<=i;j++)
+            {
+                System.out.print(c+"\t");
+                c++;
+            }
+            System.out.println("\n");
+        }
+
+
+
+    }
+
 
 
 
