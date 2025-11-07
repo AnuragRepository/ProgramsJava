@@ -155,15 +155,5 @@ public class PatternsPractise {
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
+    
 }
