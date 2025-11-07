@@ -9,6 +9,8 @@ public class PatternsPractise {
         first.pattern2();
         first.pattern3();
         first.pattern4();
+        first.pattern5();
+        first.pattern6();
     }
     public void pattern1() {
 
@@ -108,9 +110,53 @@ public class PatternsPractise {
             System.out.println("\n");
         }
 
+    }
+    public void pattern5()
+    {
+        System.out.println("Fifth Pattern ");
+        //Approach- rows equal to column element
+       /*
+        0
+        0 1
+        0 1 2
+        0 1 2 3
+        */
 
+        for(int i=0;i<4;i++)
+        {
+            for(int j=0;j<=i;j++)
+            {
+                System.out.print(j+"\t");
+            }
+            System.out.println("\n");
+        }
 
     }
+    public void pattern6()
+    {
+        System.out.println("Sixth Pattern ");
+        //Approach- rows equal to column element , element count start from 1 every time
+         /*
+        1
+        1 2
+        1 2 3
+        1 2 3 4
+        */
+
+        for(int i=0;i<4;i++)
+        {
+            int c =1;
+            for(int j=0;j<=i;j++)
+            {
+                System.out.print(c+"\t");
+                c++;
+            }
+            System.out.println("\n");
+        }
+
+    }
+
+
 
 
 
