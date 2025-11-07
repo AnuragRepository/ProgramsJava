@@ -21,7 +21,7 @@ public class First {
         {
             for(int j=0; j<4;j++)
             {
-                System.out.print("*"+" ");
+                System.out.print("*"+"\t");
             }
             System.out.println("\n");
         }
@@ -42,7 +42,7 @@ public class First {
 
             for(int j =0; j<4;j++)
             {
-                System.out.print(c+" ");
+                System.out.print(c+"\t");
                 c++;
             }
             System.out.println("\n");
@@ -51,7 +51,7 @@ public class First {
     }
     public void pattern3()
     {
-        System.out.println("Third Pattern ");
+        System.out.println("Third Pattern One way ");
         //Approach First think for pattern1 then pattern2 then conclude pattern3
     /*    1 2 3 4
           5 6 7
@@ -64,14 +64,32 @@ public class First {
         {
             for(int j =0; j<col;j++)
             {
-                System.out.print(c+" ");
+                System.out.print(c+"\t");
                 c++;
             }
             col--;
             System.out.println("\n");
         }
 
+        System.out.println("Third Pattern Second way ");
+        //or col variable can be removed and column value can be extracted from row
+
+        int a =1;
+        for(int i =0; i<4;i++)
+        {
+            for(int j =0; j<4-i;j++)
+            {
+                System.out.print(a+"\t");
+                a++;
+            }
+            col--;
+            System.out.println("\n");
+        }
+
+
     }
+
+
 
 
 
