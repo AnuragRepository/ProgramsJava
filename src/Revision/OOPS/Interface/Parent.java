@@ -6,6 +6,11 @@ public class Parent implements Interface1, Interface2 {
     {
         Parent classObj = new Parent();
         classObj.methodOfParentClass();
+/*
+        Access Type                 | Decided At     | Based On             | Output |
+            | --------------------- | ------------   | -------------------- | ------ |
+            | Variable (obj.x)      | Compile time   | Reference type (A)   | 10     |
+            | Method (obj.getX())   | Runtime        | Object type (B)      | 20     |*/
 
         Interface1 I1 = new Parent();// create class object with reference to Interface1
         I1.methodOfInterface1();//I1 cannot call methodOfInterface2() since its not defined in interface1
