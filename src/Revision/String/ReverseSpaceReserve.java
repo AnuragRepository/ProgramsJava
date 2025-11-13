@@ -11,9 +11,11 @@ public class ReverseSpaceReserve {
         System.out.println("Original String = "+input);
         String output= "yM emaN sI garunA";
         reverseStringSpaceRetain(input);
+        reverseStringSpaceRetainConventionalWay(input);
     }
     public static void reverseStringSpaceRetain(String input)
     {
+        System.out.println("\nOutput By StringBuilder Way : ");
         String[] arrayInput = input.split(" ");
         ArrayList<String> reverseList = new ArrayList<String>();
         System.out.print("Reversed String = ");
@@ -27,4 +29,25 @@ public class ReverseSpaceReserve {
         reverseList.stream().forEach(s->System.out.print(s+" "));
     }
 
+    public static void reverseStringSpaceRetainConventionalWay(String input)
+    {
+        System.out.println("\n\nOutput By conventional Way");
+        String[] arrayInput = input.split(" ");
+        ArrayList<String> reverseList = new ArrayList<String>();
+        System.out.print("Reversed String  = \n");
+        for(int i = 0; i<arrayInput.length;i++)
+        {
+            String rev="";
+            for(int j= arrayInput[i].length()-1;j>=0;j--)
+            {
+                 rev = rev+ arrayInput[i].charAt(j);
+            }
+            reverseList.add(rev);
+            System.out.print(rev);
+            System.out.println();
+        }
+        System.out.print("Reverse List Print:\n");
+        reverseList.stream().forEach(s->System.out.print(s+" "));
+
+    }
 }
