@@ -1,0 +1,19 @@
+A.Array
+1.Print specific element of 1D and all elements of 2D array
+
+B.OOPs
+1.Inheritance
+2.Abstraction
+
+
+C.Patterns
+
+D.String
+1. Reverse full string, check pallindrome
+2. Count space in string , substring
+3. Reverse the word in string while reserving space in between
+4. Reverse the sequence of words in string without reversing word but while reserving in between space
+
+E.Array
+1. Copy all element of array in another array in reverse order
+2.  sort the array in ascending and descending order
