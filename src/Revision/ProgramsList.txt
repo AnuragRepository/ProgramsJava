@@ -16,4 +16,4 @@ D.String
 
 E.Array
 1. Copy all element of array in another array in reverse order
-2.  sort the array in ascending and descending order
+2. sort the array in ascending and descending order
