@@ -2,22 +2,35 @@ package Revision.String;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class ReverseWordSequence {
 
     public static void main(String[] args)
     {
-        String s = "My Name Is Anurag";
+        String reqInput = "My Name Is Anurag";
+        String reqOutput= "Anurag Is Name My";
 
-        String[] arrayOfString = s.split(" ");
+        //Convert String to Array using split
+        //Convert Array to List
+        List<String> list = Arrays.asList(reqInput.split(" "));
 
-       for(int i= arrayOfString.length-1,j=0 ; i>=0 ; i--,j++)
-       {
-           String temp = arrayOfString[j];
-           arrayOfString[j]=arrayOfString[i];
-           arrayOfString[i]= temp;
-       }
-        System.out.print(Arrays.toString(arrayOfString));
+        //original List
+        list.stream().forEach(s->System.out.print(s+" "));
+
+        //reverse
+        Collections.reverse(list);
+
+        //reversed List
+        list.stream().forEach(s->System.out.print(s+" "));
+
+
+
+
+
+
+
 
 
     }
