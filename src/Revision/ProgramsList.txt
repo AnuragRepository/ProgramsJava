@@ -1,0 +1,24 @@
+A.Array
+1.Print specific element of 1D and all elements of 2D array
+
+B.OOPs
+1.Inheritance
+2.Abstraction
+
+
+C.Patterns
+
+D.String
+1. Reverse full string, check palindrome (IMP) -ReverseAndPalindrome
+2. Count space in string , substring
+3. Reverse the word in string while reserving space in between (IMP) - ReverseSpaceRetainPrac
+4. Reverse the sequence of words in string without reversing word but while reserving in between space (IMP)- ReverseWordSequence,ReverseWordSequenceConvn
+5. Occurrence of characters in given String (IMP) - OccurrenceCharacters
+6. Print String output as CharacterOccurrence (IMP) -OccurrenceConcat
+
+E.Array
+1. Copy all element of array in another array in reverse order (IMP) -ReverseElementStoreArray
+2. Sort the array in ascending and descending order (IMP) - Sort,LargestSmallestConventional
+3. Remove duplicate element in array (IMP)- DuplicateRemove
+4. Find duplicate element in array (Imp) - DuplicateFind
+5. Find largest,second largest, smallest, second-smallest element in array (IMP) -LargestSmallestConventional
