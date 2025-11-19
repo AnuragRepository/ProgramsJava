@@ -4,6 +4,7 @@ public class LargestSmallestConventional {
 
     public static void main(String[] args)
     {
+        //Bubble sort
         //Basically we are sorting the element in descending order
         // Con - in case of duplicate elements some discrepancy may comes while extracting element based on index
         int[] input = {100,20,10,55,90,90,80};
