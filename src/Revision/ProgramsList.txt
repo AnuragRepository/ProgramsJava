@@ -9,6 +9,7 @@ B.OOPs
 C.Patterns
 
 D.String
+
 1. Reverse full string, check palindrome (IMP) -ReverseAndPalindrome
 2. Count space in string , substring
 3. Reverse the word in string while reserving space in between (IMP) - ReverseSpaceRetainPrac
