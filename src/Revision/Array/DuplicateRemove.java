@@ -1,8 +1,6 @@
 package Revision.Array;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class DuplicateRemove {
@@ -16,6 +14,22 @@ public class DuplicateRemove {
        viaSetStoreWay1(arrayInput);
 
         viaSetStoreWay2(arrayInput);
+
+        viaConventionalWay(arrayInput);
+
+    }
+
+    private static void viaConventionalWay(Integer[] arrayInput) {
+
+        ArrayList<Integer> elementList = new ArrayList<Integer>();
+        for(int i = 0 ; i< arrayInput.length; i++)
+        {
+            if(!elementList.contains(arrayInput[i]))
+            {
+                elementList.add(arrayInput[i]);
+            }
+        }
+       System.out.println("\nviaConventionalWay Unique array = "+elementList.toString());
 
     }
 
