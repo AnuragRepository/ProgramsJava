@@ -4,6 +4,13 @@ public class MainClass {
 
     public static void main(String[] args)
     {
+
+        /*
+        Access Type                 | Decided At     | Based On             | Output |
+            | --------------------- | ------------   | -------------------- | ------ |
+            | Variable (obj.x)      | Compile time   | Reference type (A)   | 10     |
+            | Method (obj.getX())   | Runtime        | Object type (B)      | 20     |*/
+
         ClassA obj1 = new ClassB();// obj has class A reference and classB also extend ClassA
 
 
