@@ -22,4 +22,4 @@ E.Array
 2. Sort the array in ascending and descending order (IMP) - Sort,LargestSmallestConventional
 3. Remove duplicate element in array (IMP)- DuplicateRemove
 4. Find duplicate element in array (Imp) - DuplicateFind
-5. Find largest,second largest, smallest, second-smallest element in array (IMP) -LargestSmallestConventional(Bubble sort, will not work in duplicate elements),LargestSmallestOptRecommended
+5. Find largest,second largest, smallest, second-smallest element in array (IMP) -LargestSmallestConventional(Bubble sort, will not work in duplicate elements),LargestSmallestOptRecommended,TwoDArraySmallestLargest
