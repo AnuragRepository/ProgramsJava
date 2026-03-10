@@ -22,6 +22,7 @@ public class ReverseWordSequence {
         //reverse
         Collections.reverse(list);
 
+
         //reversed List
         list.stream().forEach(s->System.out.print(s+" "));
 

@@ -21,11 +21,11 @@ public class MainClass {
         System.out.println(obj2.i);// i will have classB value
         obj2.display1();
 
-        //ClassA obj3 = new ClassA();
-        //System.out.println(obj3.i);// i will have classA value
+        ClassA obj3 = new ClassA();
+        System.out.println(obj3.i);// i will have classA value
 
         //not possible since classA don't have info of classB
-       /* ClassB obj3 = new ClassA();
+       /* ClassB obj4 = new ClassA();
         System.out.println(obj1.i);*/
 
 
